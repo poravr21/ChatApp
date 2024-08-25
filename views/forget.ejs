@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Forget Password</title>
+  </head>
+  <body>
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <img src="/static/images/undraw_file_sync_ot38.svg" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 contents">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="mb-4">
+              <h3>Forget Password</strong></h3>
+            </div>
+            <form action="/forget" method="post">
+              <div class="form-group last mb-4">
+                <label for="password">Username</label>
+                <input type="text" class="form-control" id="password" name="username">
+              </div>
+              <div class="form-group last mb-4">
+                <label for="password">Phone No.</label>
+                <input type="text" class="form-control" id="password" name="phone">
+              </div>
+              
+              <div class="form-group last mb-4">
+                <label for="password">Email</label>
+                <input type="text" class="form-control" id="password" name="email">
+              </div>
+              <input type="submit" value="Send OTP" class="btn text-white btn-block btn-primary">
+            </form>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>
